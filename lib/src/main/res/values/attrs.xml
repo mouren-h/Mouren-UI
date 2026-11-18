@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwitchButton">
+        <attr name="sb_shadow_effect" format="boolean"/>
+        <attr name="sb_uncheckcircle_color" format="color"/>
+        <attr name="sb_uncheckcircle_width" format="dimension"/>
+        <attr name="sb_uncheckcircle_radius" format="dimension"/>
+        <attr name="sb_shadow_radius" format="dimension"/>
+        <attr name="sb_shadow_offset" format="dimension"/>
+        <attr name="sb_shadow_color" format="color"/>
+        <attr name="sb_uncheck_color" format="color"/>
+        <attr name="sb_checked_color" format="color"/>
+        <attr name="sb_border_width" format="dimension"/>
+        <attr name="sb_checkline_color" format="color"/>
+        <attr name="sb_checkline_width" format="dimension"/>
+        <attr name="sb_button_color" format="color"/>
+        <attr name="sb_uncheckbutton_color" format="color"/>
+        <attr name="sb_checkedbutton_color" format="color"/>
+        <attr name="sb_effect_duration" format="integer" min="0"/>
+        <attr name="sb_checked" format="boolean"/>
+        <attr name="sb_show_indicator" format="boolean"/>
+        <attr name="sb_background" format="color"/>
+        <attr name="sb_enable_effect" format="boolean"/>
+    </declare-styleable>
+</resources>
