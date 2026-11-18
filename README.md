@@ -31,6 +31,12 @@ dependencyResolutionManagement {
     }
 }
 
+第二步：在模块的 build.gradle.kts 中添加依赖
+
+请将 x.x.x 替换为你最新的 Release 版本号（例如 3.3.0）。
+
+```kotlin
 dependencies {
-	        implementation("com.github.youhuaixu37-boop:Mouren-UI:Tag")
-	}
+    implementation("com.github.youhuaixu37.boops:Mouren-UI:x.x.x")
+}
+```
