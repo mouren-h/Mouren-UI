@@ -48,7 +48,7 @@ afterEvaluate {
                 artifactId = "Mouren-UI"                 
                 
                 // 版本号
-                version = "3.0.0"                        
+                version = "3.1.0"                        
                 
                 // 绑定 release 组件
                 from(components["release"])
