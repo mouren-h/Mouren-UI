@@ -1,6 +1,7 @@
+// 根目录的 build.gradle.kts
 plugins {
-    id("com.android.library")
-    id("maven-publish")
+    // 声明 Android Library 插件和版本号，apply false 表示这里不直接运行
+    id("com.android.library") version "8.1.2" apply false
 }
 
 android {
