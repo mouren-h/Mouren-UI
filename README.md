@@ -30,6 +30,7 @@ dependencyResolutionManagement {
         maven { url = uri("https://jitpack.io") }
     }
 }
+```
 
 第二步：在模块的 build.gradle.kts 中添加依赖
 
@@ -39,4 +40,12 @@ dependencyResolutionManagement {
 dependencies {
     implementation("com.github.youhuaixu37.boops:Mouren-UI:x.x.x")
 }
+```
+
+💡 使用示例
+
+在你的 Java 代码中，直接调用对应的 Util 类即可。例如：
+
+```java
+
 ```
