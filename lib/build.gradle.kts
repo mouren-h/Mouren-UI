@@ -42,7 +42,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 groupId = "com.github.youhuaixu37.boops" 
                 artifactId = "Mouren-UI"                 
-                version = "3.2.0"
+                version = "3.3.0"
                 from(components["release"])
             }
         }
