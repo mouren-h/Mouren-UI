@@ -1,3 +1,3 @@
-插件
-id("com.android.library") version "8.1.2" apply false
+plugins {
+    id("com.android.library") version "8.1.2" apply false
 }
