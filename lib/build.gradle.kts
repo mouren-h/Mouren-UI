@@ -31,10 +31,11 @@ android {
 }
 
 dependencies {
-    implementation("androidx.annotation:annotation:1.11.0")
-    implementation("androidx.core:core-ktx:1.18.0"){
-        // 排除废弃的 kotlin-stdlib-common，防止它进入 POM
-        exclude(group = "org.jetbrains.kotlin", module = "kotlin-stdlib-common")
+    implementation("androidx.core:core:1.19.1") {
+        exclude(group = "org.jetbrains.kotlin", module = "kotlin-stdlib")
+    }
+    implementation("androidx.annotation:annotation:1.11.0") {
+        exclude(group = "org.jetbrains.kotlin", module = "kotlin-stdlib")
     }
 }
 
