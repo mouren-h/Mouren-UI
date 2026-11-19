@@ -31,10 +31,10 @@ android {
 }
 
 dependencies {
-    implementation("androidx.core:core:1.19.1") {
+    implementation("androidx.core:core:1.13.1") {
         exclude(group = "org.jetbrains.kotlin", module = "kotlin-stdlib")
     }
-    implementation("androidx.annotation:annotation:1.11.0") {
+    implementation("androidx.annotation:annotation:1.9.1") {
         exclude(group = "org.jetbrains.kotlin", module = "kotlin-stdlib")
     }
 }
@@ -43,8 +43,8 @@ afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("release") {
-                groupId = "com.github.youhuaixu37.boops" 
-                artifactId = "Mouren-UI"                 
+                groupId = "com.github.mouren.h" 
+                artifactId = "mouren-ui"                 
                 version = "3.3.0"
                 from(components["release"])
             }
