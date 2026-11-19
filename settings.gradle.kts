@@ -16,5 +16,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Mouren-UI"
+rootProject.name = "mouren-ui"
 include(":lib")
