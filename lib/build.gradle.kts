@@ -33,7 +33,6 @@ android {
 dependencies {
     implementation("androidx.annotation:annotation:1.11.0")
     implementation("androidx.core:core-ktx:1.18.0")
-    implementation("com.github.zcweng:switch-button:0.0.3")
 }
 
 afterEvaluate {
